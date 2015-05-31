@@ -1,6 +1,6 @@
 imports:
-    libgit2: ./libgit2
-    pygit2: ./pygit2
+    libgit2: imports/libgit2
+    pygit2: imports/pygit2
 
 git module libgit2:
     url: https://github.com/libgit2/libgit2
