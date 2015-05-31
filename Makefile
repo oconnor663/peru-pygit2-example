@@ -1,4 +1,6 @@
-run: .pygit2-stamp
+build: .pygit2-stamp
+
+test: build
 	export PYTHONPATH=$$(echo imports/pygit2/build/lib.*) && \
 		export LD_LIBRARY_PATH=imports/libgit2/lib && \
 		./test.py
